@@ -1,0 +1,26 @@
+MindFlip 0.1.0 — final build artifacts, 2026-10-02
+
+/workspace/MindFlip/builds/MindFlip-debug.apk
+Bytes: 56803548
+SHA256: cfff3429eb28e6c88afca780f4dfe1e4611fd8542b38cd083b457ee104c17b9a
+
+/workspace/MindFlip/builds/MindFlip.x86_64
+Bytes: 72187624
+SHA256: 37e58c1cbd573cfd19b28c2dfb45984d659aa9d2a59ea528c121fedd5331ecf4
+
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+zipalign -c 4: PASS
+Native stored library ZIP alignment: 16KB PASS
+APK packaged level data: 20 levels PASS
+
+package: name='com.mindflip.game' versionCode='1' versionName='0.1.0' platformBuildVersionName='16' platformBuildVersionCode='36' compileSdkVersion='36' compileSdkVersionCodename='16'
+install-location:'auto'
+sdkVersion:'24'
+targetSdkVersion:'36'
+application-label:'MindFlip'

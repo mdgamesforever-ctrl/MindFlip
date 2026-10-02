@@ -1,0 +1,3130 @@
+[
+  {
+    "id": 1,
+    "title": "A little twist",
+    "chapter": "FIRST CONTACT",
+    "width": 3,
+    "height": 2,
+    "par": 1,
+    "tip": "Tap a tile to rotate it. Join the source to the gold target.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Find your flow",
+    "chapter": "FIRST CONTACT",
+    "width": 4,
+    "height": 3,
+    "par": 9,
+    "tip": "Light travels only through matching connections.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Around the bend",
+    "chapter": "FIRST CONTACT",
+    "width": 4,
+    "height": 3,
+    "par": 11,
+    "tip": "Follow the path. You can undo any move.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "straight",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 2,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "straight",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Two destinations",
+    "chapter": "BRANCHING OUT",
+    "width": 4,
+    "height": 3,
+    "par": 7,
+    "tip": "Every gold target needs energy. T-junctions divide the flow.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "straight",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "tee",
+        "rotation": 0,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "The long way",
+    "chapter": "BRANCHING OUT",
+    "width": 5,
+    "height": 4,
+    "par": 17,
+    "tip": "Some paths are distractions. Trace the useful connections.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": false,
+        "decoy": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "tee",
+        "rotation": 2,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 2,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "straight",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": false,
+        "decoy": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Cross currents",
+    "chapter": "BRANCHING OUT",
+    "width": 5,
+    "height": 4,
+    "par": 8,
+    "tip": "Four-way junctions carry energy in every direction.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "straight",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "cross",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "straight",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "straight",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "straight",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Anchored",
+    "chapter": "FIXED POINTS",
+    "width": 4,
+    "height": 3,
+    "par": 6,
+    "tip": "Tiles with a small lock stay fixed. Build around them.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Between the anchors",
+    "chapter": "FIXED POINTS",
+    "width": 5,
+    "height": 4,
+    "par": 10,
+    "tip": "Use fixed tiles as clues to the route.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 2,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "tee",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": false,
+        "decoy": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "straight",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 2,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 3,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "straight",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Hold the center",
+    "chapter": "FIXED POINTS",
+    "width": 5,
+    "height": 4,
+    "par": 10,
+    "tip": "Two targets, one anchored junction.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "straight",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "tee",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 2,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Open sesame",
+    "chapter": "CIRCUIT SWITCHES",
+    "width": 4,
+    "height": 2,
+    "par": 1,
+    "tip": "Tap the switch. Its matching gate opens.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "switch",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": true,
+        "shape": "straight",
+        "channel": "A",
+        "on": false,
+        "solution_on": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "gate",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": true,
+        "shape": "straight",
+        "channel": "A"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Switchback",
+    "chapter": "CIRCUIT SWITCHES",
+    "width": 5,
+    "height": 3,
+    "par": 7,
+    "tip": "Switches toggle instead of rotating. Open the gate, then route energy.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "gate",
+        "rotation": 3,
+        "solution": 3,
+        "fixed": true,
+        "shape": "corner",
+        "channel": "A"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "switch",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": true,
+        "shape": "straight",
+        "channel": "A",
+        "on": false,
+        "solution_on": true
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Double permission",
+    "chapter": "CIRCUIT SWITCHES",
+    "width": 6,
+    "height": 4,
+    "par": 12,
+    "tip": "Lettered switches control their matching gates.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "straight",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "gate",
+        "rotation": 3,
+        "solution": 3,
+        "fixed": true,
+        "shape": "corner",
+        "channel": "A"
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "switch",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": true,
+        "shape": "straight",
+        "channel": "A",
+        "on": false,
+        "solution_on": true
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "tee",
+        "rotation": 2,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 2,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "switch",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true,
+        "shape": "corner",
+        "channel": "B",
+        "on": false,
+        "solution_on": true
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "gate",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": true,
+        "shape": "straight",
+        "channel": "B"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Go with the arrow",
+    "chapter": "ONE DIRECTION",
+    "width": 4,
+    "height": 3,
+    "par": 5,
+    "tip": "Arrow tiles carry energy in one direction only.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "one_way",
+        "rotation": 2,
+        "solution": 0,
+        "fixed": false,
+        "incoming": 3
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "one_way",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false,
+        "incoming": 3
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "A directed detour",
+    "chapter": "ONE DIRECTION",
+    "width": 5,
+    "height": 4,
+    "par": 12,
+    "tip": "Turn the arrows to follow the flow, not oppose it.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "one_way",
+        "rotation": 2,
+        "solution": 0,
+        "fixed": false,
+        "incoming": 3
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "one_way",
+        "rotation": 0,
+        "solution": 3,
+        "fixed": false,
+        "incoming": 2
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "No turning back",
+    "chapter": "ONE DIRECTION",
+    "width": 6,
+    "height": 4,
+    "par": 15,
+    "tip": "One source can still feed several directed routes.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "one_way",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false,
+        "incoming": 3
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "one_way",
+        "rotation": 2,
+        "solution": 0,
+        "fixed": false,
+        "incoming": 3
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "tee",
+        "rotation": 3,
+        "solution": 2,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "straight",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "straight",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "one_way",
+        "rotation": 3,
+        "solution": 0,
+        "fixed": false,
+        "incoming": 3
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Three ways forward",
+    "chapter": "SPLIT THE SIGNAL",
+    "width": 5,
+    "height": 3,
+    "par": 7,
+    "tip": "A splitter takes energy at its arrow tail and sends it out through three arms.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "straight",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "splitter",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true,
+        "incoming": 3
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "straight",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Divide and deliver",
+    "chapter": "SPLIT THE SIGNAL",
+    "width": 6,
+    "height": 5,
+    "par": 13,
+    "tip": "Align the splitter input first. Then complete each branch.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "straight",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "one_way",
+        "rotation": 3,
+        "solution": 0,
+        "fixed": false,
+        "incoming": 3
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "straight",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "straight",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "splitter",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true,
+        "incoming": 3
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "straight",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "straight",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "straight",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "straight",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "A change of color",
+    "chapter": "CHROMATIC LOGIC",
+    "width": 5,
+    "height": 3,
+    "par": 3,
+    "tip": "A color tile tints neutral energy. Match the target color.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "straight",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "color_path",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false,
+        "shape": "straight",
+        "color": "violet"
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "straight",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "color_target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true,
+        "color": "violet"
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Separate spectra",
+    "chapter": "CHROMATIC LOGIC",
+    "width": 6,
+    "height": 4,
+    "par": 16,
+    "tip": "Split neutral energy before tinting it. Different colors cannot mix.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "corner",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "color_target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true,
+        "color": "violet"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "color_path",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false,
+        "shape": "straight",
+        "color": "violet"
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "corner",
+        "rotation": 0,
+        "solution": 3,
+        "fixed": false
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "straight",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "tee",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 2,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "color_path",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false,
+        "shape": "straight",
+        "color": "coral"
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "color_target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true,
+        "color": "coral"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "The MindFlip",
+    "chapter": "FINAL CONNECTION",
+    "width": 7,
+    "height": 5,
+    "par": 14,
+    "tip": "Everything connects: switch, split, direct, and color the flow.",
+    "tiles": [
+      {
+        "x": 0,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 0,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 0,
+        "type": "corner",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 0,
+        "type": "straight",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 0,
+        "type": "color_path",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false,
+        "shape": "straight",
+        "color": "violet"
+      },
+      {
+        "x": 5,
+        "y": 0,
+        "type": "straight",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 6,
+        "y": 0,
+        "type": "color_target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true,
+        "color": "violet"
+      },
+      {
+        "x": 0,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 1,
+        "type": "straight",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 5,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 6,
+        "y": 1,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 2,
+        "type": "start",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 2,
+        "type": "switch",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": true,
+        "shape": "straight",
+        "channel": "A",
+        "on": false,
+        "solution_on": true
+      },
+      {
+        "x": 2,
+        "y": 2,
+        "type": "splitter",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true,
+        "incoming": 3
+      },
+      {
+        "x": 3,
+        "y": 2,
+        "type": "straight",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 2,
+        "type": "gate",
+        "rotation": 1,
+        "solution": 1,
+        "fixed": true,
+        "shape": "straight",
+        "channel": "A"
+      },
+      {
+        "x": 5,
+        "y": 2,
+        "type": "one_way",
+        "rotation": 2,
+        "solution": 0,
+        "fixed": false,
+        "incoming": 3
+      },
+      {
+        "x": 6,
+        "y": 2,
+        "type": "target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 3,
+        "type": "straight",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 3,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 4,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 5,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 6,
+        "y": 3,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 0,
+        "y": 4,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 1,
+        "y": 4,
+        "type": "blocked",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true
+      },
+      {
+        "x": 2,
+        "y": 4,
+        "type": "corner",
+        "rotation": 1,
+        "solution": 0,
+        "fixed": false
+      },
+      {
+        "x": 3,
+        "y": 4,
+        "type": "straight",
+        "rotation": 0,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 4,
+        "y": 4,
+        "type": "color_path",
+        "rotation": 3,
+        "solution": 1,
+        "fixed": false,
+        "shape": "straight",
+        "color": "coral"
+      },
+      {
+        "x": 5,
+        "y": 4,
+        "type": "straight",
+        "rotation": 2,
+        "solution": 1,
+        "fixed": false
+      },
+      {
+        "x": 6,
+        "y": 4,
+        "type": "color_target",
+        "rotation": 0,
+        "solution": 0,
+        "fixed": true,
+        "color": "coral"
+      }
+    ]
+  }
+]
