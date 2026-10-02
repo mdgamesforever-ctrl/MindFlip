@@ -110,6 +110,28 @@ and the [visual guide](docs/VISUAL_GUIDE.md). The completed wrong-prompt safety
 snapshot is on `safety/abandoned-rpg` (`01cf384`); `7a164c4` removed it from `work`.
 The repository was empty before the mistake; no previous configuration was removed.
 
+## How to build APK from GitHub
+
+1. Open the repository on GitHub.
+2. Open **Actions**.
+3. Select **MindFlip Android Build**.
+4. Press **Run workflow**, choose `main`, and confirm **Run workflow**.
+5. Wait for the build to finish successfully.
+6. Open the completed run.
+7. Under **Artifacts**, download **MindFlip-Android-Debug**.
+8. Extract the downloaded ZIP.
+9. Install `MindFlip-debug.apk` on your Android phone.
+
+The workflow also runs automatically on relevant game/build changes pushed to
+`main`. It installs Godot 4.6.3 and matching templates, JDK 17 and Android SDK 36,
+validates the game, exports the existing `Android` preset, verifies the APK and
+prints its size and SHA-256. Only the APK is uploaded; artifacts remain available
+for 14 days. You may need to sign in to GitHub to download artifacts.
+**No GitHub secrets are required.** The debug keystore is generated on the runner.
+If Android reports a signing conflict with a previously installed build, uninstall
+that differently signed build first (which removes its local saved progress).
+These development APKs are separate from eventual release signing/Play submission.
+
 ## Current limits and next work
 
 English only. Twenty small handcrafted boards, with modest decoys in a few levels;

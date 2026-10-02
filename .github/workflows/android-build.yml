@@ -1,0 +1,162 @@
+name: MindFlip Android Build
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/android-build.yml'
+      - 'project.godot'
+      - 'export_presets.cfg'
+      - 'assets/**'
+      - 'data/**'
+      - 'scenes/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - 'tools/configure_android_ci.py'
+      - 'tools/validate_levels.py'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: mindflip-android-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  GODOT_VERSION: '4.6.3'
+  APK_PATH: builds/MindFlip-debug.apk
+
+jobs:
+  build:
+    name: Export and verify Android debug APK
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    defaults:
+      run:
+        shell: bash
+
+    steps:
+      - name: Check out MindFlip
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android platform and build tools
+        run: |
+          set -euo pipefail
+          sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0"
+          sdk_root="${ANDROID_SDK_ROOT:-${ANDROID_HOME:-}}"
+          test -n "$sdk_root"
+          test -x "$sdk_root/platform-tools/adb"
+          test -x "$sdk_root/build-tools/36.0.0/apksigner"
+          test -x "$sdk_root/build-tools/36.0.0/zipalign"
+          test -x "$JAVA_HOME/bin/java"
+          echo "ANDROID_SDK_ROOT=$sdk_root" >> "$GITHUB_ENV"
+          java -version
+
+      - name: Install Godot 4.6.3 and matching export templates
+        run: |
+          set -euo pipefail
+          install_dir="$RUNNER_TEMP/mindflip-godot"
+          mkdir -p "$install_dir"
+          release="https://github.com/godotengine/godot/releases/download/${GODOT_VERSION}-stable"
+          editor="Godot_v${GODOT_VERSION}-stable_linux.x86_64.zip"
+          templates="Godot_v${GODOT_VERSION}-stable_export_templates.tpz"
+          curl --fail --location --retry 3 "$release/$editor" -o "$install_dir/editor.zip"
+          curl --fail --location --retry 3 "$release/$templates" -o "$install_dir/templates.tpz"
+          unzip -q "$install_dir/editor.zip" -d "$install_dir"
+          mv "$install_dir/Godot_v${GODOT_VERSION}-stable_linux.x86_64" "$install_dir/godot"
+          chmod +x "$install_dir/godot"
+          "$install_dir/godot" --version | grep -F "${GODOT_VERSION}.stable."
+          template_dir="${XDG_DATA_HOME:-$HOME/.local/share}/godot/export_templates/${GODOT_VERSION}.stable"
+          mkdir -p "$template_dir"
+          # Native debug export needs only this template, not every platform's binaries.
+          unzip -p "$install_dir/templates.tpz" templates/android_debug.apk > "$template_dir/android_debug.apk"
+          test -s "$template_dir/android_debug.apk"
+          rm "$install_dir/editor.zip" "$install_dir/templates.tpz"
+          echo "$install_dir" >> "$GITHUB_PATH"
+
+      - name: Create debug keystore
+        run: |
+          set -euo pipefail
+          keystore="$RUNNER_TEMP/mindflip-debug.keystore"
+          "$JAVA_HOME/bin/keytool" -genkeypair -noprompt \
+            -keystore "$keystore" -storetype JKS \
+            -storepass android -keypass android -alias androiddebugkey \
+            -keyalg RSA -keysize 2048 -validity 10000 \
+            -dname "CN=Android Debug,O=Android,C=US"
+          echo "MINDFLIP_DEBUG_KEYSTORE=$keystore" >> "$GITHUB_ENV"
+
+      - name: Import project and configure Android export
+        run: |
+          set -euo pipefail
+          test -f project.godot
+          test -f export_presets.cfg
+          godot --headless --path . --editor --import --quit
+          python3 tools/configure_android_ci.py
+
+      - name: Validate puzzle data and runtime systems
+        run: |
+          set -euo pipefail
+          python3 tools/validate_levels.py
+          godot --headless --path . --script tests/test_game.gd
+
+      - name: Export Android debug APK
+        run: |
+          set -euo pipefail
+          mkdir -p builds
+          rm -f "$APK_PATH" "$APK_PATH.idsig"
+          godot --headless --path . --export-debug Android "$APK_PATH"
+          test -s "$APK_PATH"
+
+      - name: Verify APK and print checksum and size
+        run: |
+          set -euo pipefail
+          test -f "$APK_PATH"
+          test -s "$APK_PATH"
+          file "$APK_PATH"
+          python3 - <<'PY'
+          import hashlib
+          import os
+          from pathlib import Path
+          import zipfile
+
+          apk = Path(os.environ["APK_PATH"])
+          if not apk.is_file() or apk.stat().st_size == 0:
+              raise SystemExit("APK missing or empty")
+          if not zipfile.is_zipfile(apk):
+              raise SystemExit("APK is not a valid ZIP archive")
+          with zipfile.ZipFile(apk) as archive:
+              if archive.testzip() is not None:
+                  raise SystemExit("APK archive integrity check failed")
+              for required in ("AndroidManifest.xml", "classes.dex", "assets/data/levels.json"):
+                  if required not in archive.namelist():
+                      raise SystemExit(f"Required APK entry is missing: {required}")
+          digest = hashlib.file_digest(apk.open("rb"), "sha256").hexdigest()
+          size = apk.stat().st_size
+          print(f"APK: {apk}")
+          print(f"Size: {size:,} bytes ({size / 1048576:.2f} MiB)")
+          print(f"SHA-256: {digest}")
+          summary = f"## MindFlip Android Debug\n\nAPK: `{apk.name}`\n\nSize: {size:,} bytes\n\nSHA-256: `{digest}`\n\nDownload **MindFlip-Android-Debug** under this run's Artifacts.\n"
+          with open(os.environ["GITHUB_STEP_SUMMARY"], "a") as output:
+              output.write(summary)
+          PY
+          "$ANDROID_SDK_ROOT/build-tools/36.0.0/apksigner" verify --verbose "$APK_PATH"
+          "$ANDROID_SDK_ROOT/build-tools/36.0.0/zipalign" -c -P 16 4 "$APK_PATH"
+
+      - name: Upload MindFlip APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: MindFlip-Android-Debug
+          path: builds/MindFlip-debug.apk
+          if-no-files-found: error
+          retention-days: 14
+          compression-level: 0
